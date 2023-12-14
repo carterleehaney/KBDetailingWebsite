@@ -112,7 +112,7 @@
     border-radius: 10px;
 }
 
-.interiorh2 h2 {
+.intexth2 h2 {
     color: #fd960d;
     background-color: white;
     display: inline-block;
@@ -123,7 +123,7 @@
     text-align: center;
 }
 
-.interiorh2 {
+.intexth2 {
     margin: auto;
     text-align: center;
 }
@@ -142,7 +142,7 @@
     padding: 20px;
 }
 
-.bodyInterior {
+.bodyOther {
     background-image: none;
     background-color: #333;
 }
