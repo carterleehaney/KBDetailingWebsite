@@ -28,7 +28,7 @@ body {
     height: auto;
     text-align: center;
     padding: 10px;
-    display: flex;
+    /* display: flex; */
     overflow: auto;
     /* background-color: rgba(0, 0, 0, 0.5); */
     
