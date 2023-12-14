@@ -33,6 +33,12 @@
     border-radius: 10px;
 }
 
+@media only screen and (max-width: 600px) {
+    .navBar a {
+        font-size: 10px;
+    }
+}
+
 .navBar {
     margin: auto;
     width: auto;
