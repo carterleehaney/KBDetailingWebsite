@@ -24,7 +24,6 @@
 
 .navBar a {
     background-color: rgba(255, 255, 255); 
-    text-decoration: none !important;
     font-size: 15px;
     color: #fd970d;
     border: 3px solid #fd970d;
@@ -114,6 +113,18 @@
 }
 
 .interiorh2 h2 {
+    color: #fd960d;
+    background-color: white;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid #fd960d;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.interiorh2 {
+    margin: auto;
     text-align: center;
 }
 
@@ -122,15 +133,12 @@
     height: auto;
     text-align: center;
     margin: auto;
-    border-radius: 10px;
-    border: 2px solid white;
-
+    /* border: 3px solid #fd960d; */
 }
 
 .imageContainer img {
     width: 40%;
     height: 40%;
-    border-radius: 10px;
     padding: 20px;
 }
 
