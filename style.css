@@ -13,7 +13,7 @@ body {
 .navBar a {
     background-color: rgba(255, 255, 255); 
     text-decoration: none !important;
-    font-size: 25px;
+    font-size: 15px;
     color: #fd970d;
     border: 3px solid #fd970d;
     padding: 20px; 
@@ -28,7 +28,6 @@ body {
     height: auto;
     text-align: center;
     padding: 10px;
-    border: 3px solid #fd970d;
     display: flex;
     overflow: auto;
     /* background-color: rgba(0, 0, 0, 0.5); */
