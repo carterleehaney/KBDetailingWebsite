@@ -35,8 +35,8 @@
 }
 
 .navBar a:hover {
-    background-color: black;
-    color: white;
+    background-color: #333;
+    color: #fd960d;
     border: 3px solid white;
 }
 
@@ -71,7 +71,7 @@
     border-radius: 10px;
     color: #fd960d;
     background-color: #333;
-    text-decoration: none; 
+    
 }
 
 .content h3 a:hover {
@@ -82,10 +82,11 @@
 
 .content h2 {
     color: #fd960d;
-    background-color: #333;
+    background-color: white;
     display: inline-block;
     padding: 10px;
     border-radius: 10px;
+    border: 3px solid #fd960d;
 }
 
 .content {
