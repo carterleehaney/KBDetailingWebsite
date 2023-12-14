@@ -25,9 +25,10 @@ body {
 
 .navBar {
     margin: auto;
-    width: 1920px;
+    width: 600px;
     height: 100px;
     text-align: center;
+    border: 2px solid #fd970d;
     /* background-color: rgba(0, 0, 0, 0.5); */
     
 }
@@ -56,6 +57,7 @@ body {
 
 .content {
     background-color: rgba(255, 255, 255);
+    overflow: auto;
     width: 25%;
     height: auto;
     margin: auto;
