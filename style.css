@@ -112,3 +112,24 @@
     border: 2px solid white;
     border-radius: 10px;
 }
+
+.interiorh2 h2 {
+    text-align: center;
+}
+
+.imageContainer {
+    width: 700px;
+    height: 400px;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    border: 2px solid white;
+
+}
+
+.imageContainer img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 20px;
+}
