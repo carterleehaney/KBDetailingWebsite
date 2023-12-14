@@ -6,7 +6,7 @@
 @media only screen and (max-width: 600px) {
     body {
         background-image: url('images/backgroundmobile.jpg');
-        background-size: stretch;
+        background-size: fill;
         background-repeat: no-repeat;
         background-position: center;
     }
