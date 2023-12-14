@@ -13,21 +13,23 @@ body {
 .navBar a {
     background-color: rgba(255, 255, 255); 
     text-decoration: none !important;
-    font-size: 25px; 
+    font-size: 15px;
     color: #fd970d;
     border: 3px solid #fd970d;
-    padding: 15px; 
+    padding: 20px; 
     display: inline-block;
     margin: auto;
     border-radius: 10px;
-    margin-top: -200px;
 }
 
 .navBar {
     margin: auto;
-    width: 600px;
-    height: 100px;
+    width: auto;
+    height: auto;
     text-align: center;
+    padding: 10px;
+    /* display: flex; */
+    overflow: auto;
     /* background-color: rgba(0, 0, 0, 0.5); */
     
 }
@@ -54,17 +56,25 @@ body {
     border: 5px solid white;
 }
 
+.content h2 {
+    color: #fd960d;
+    background-color: #333;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
 .content {
-    background-color: rgba(255, 255, 255);
+    /* background-color: rgba(255, 255, 255); */
     overflow: auto;
-    width: 500px;
+    width: auto;
     height: auto;
     margin: auto;
     text-align: center;
     padding: 10px;
-    border: 3px solid #fd960d;
+    /* border: 3px solid #fd960d; */
     border-radius: 10px;
-
 }
 
 .aboutText {
