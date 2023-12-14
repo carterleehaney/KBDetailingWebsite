@@ -56,15 +56,24 @@ body {
     border: 5px solid white;
 }
 
+.content h2 {
+    color: #fd960d;
+    background-color: #333;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
 .content {
-    background-color: rgba(255, 255, 255);
+    /* background-color: rgba(255, 255, 255); */
     overflow: auto;
     width: auto;
     height: auto;
     margin: auto;
     text-align: center;
     padding: 10px;
-    border: 3px solid #fd960d;
+    /* border: 3px solid #fd960d; */
     border-radius: 10px;
 }
 
