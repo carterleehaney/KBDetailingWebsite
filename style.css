@@ -5,8 +5,8 @@
 
 @media only screen and (max-width: 600px) {
     body {
-        background-image: url('images/backgroundhome-modified.jpg');
-        background-size: cover;
+        background-image: url('images/backgroundmobile.jpg');
+        background-size: stretch;
         background-repeat: no-repeat;
         background-position: center;
     }
@@ -14,8 +14,8 @@
 
 @media only screen and (min-width: 601px) {
     body {
-        background-image: url('images/backgroundhome.jpg');
-        background-size: cover;
+        background-image: url('images/backgrounddesktop.jpg');
+        background-size: stretch;
         background-repeat: no-repeat;
         background-position: center;
     }
@@ -80,7 +80,6 @@
     padding: 10px;
     border-radius: 10px;
 }
-
 
 .content {
     /* background-color: rgba(255, 255, 255); */
