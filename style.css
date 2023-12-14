@@ -1,0 +1,79 @@
+* {
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+}
+
+body {
+    background-image: url('images/backgroundhome-modified.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navBar a {
+    background-color: rgba(255, 255, 255); 
+    text-decoration: none !important;
+    font-size: 25px; 
+    color: #fd970d;
+    border: 3px solid #fd970d;
+    padding: 15px; 
+    display: inline-block;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: -200px;
+}
+
+.navBar {
+    margin: auto;
+    width: 1920px;
+    height: 100px;
+    text-align: center;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    
+}
+
+.siteLogo {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+.content h3 a {
+    display: inline-block;
+    padding: 10px;
+    border: 5px solid #333;
+    border-radius: 10px;
+    color: #fd960d;
+    background-color: #333;
+    text-decoration: none; 
+}
+
+.content h3 a:hover {
+    background-color: #fd960d;
+    color: white;
+    border: 5px solid white;
+}
+
+.content {
+    background-color: rgba(255, 255, 255);
+    width: 25%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border: 3px solid #fd960d;
+    border-radius: 10px;
+
+}
+
+.aboutText {
+    margin: auto;
+    text-align: center;
+    height: auto;
+    width: 500px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+}
