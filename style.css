@@ -57,6 +57,48 @@
     
 }
 
+.hireContent {
+    margin: auto;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    overflow: auto;
+}
+
+.hireContent h2 {
+    color: #fd960d;
+}
+
+.hireContent h4 {
+    color: #fd960d;
+}
+
+.hireContent p {
+    color: #fd960d;
+}
+
+.contactContent {
+    margin: auto;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    overflow: auto;
+}
+
+.contactContent h2 {
+    color: #fd960d;
+}
+
+.contactContent h4 {
+    color: #fd960d;
+}
+
+.contactContent p {
+    color: #fd960d;
+}
+
 .siteLogo {
     width: 300px;
     height: 300px;
@@ -108,9 +150,9 @@
     font-family: 'Times New Roman', Times, serif;
     background-color: #333;
     color: white;
-    border: 2px solid #333;
-    border-radius: 10px;
+    padding: 10px; /* Add padding to create space between text and border */
 }
+
 
 .intexth2 h2 {
     color: #fd960d;
