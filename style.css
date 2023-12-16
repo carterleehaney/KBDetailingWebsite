@@ -74,6 +74,14 @@
     color: #fd960d;
 }
 
+.contactContent p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hireContent h3 {
+    color: #fd960d;
+}
+
 .hireContent p {
     color: #fd960d;
 }
@@ -147,10 +155,20 @@
     text-align: center;
     height: auto;
     width: auto;
-    font-family: 'Times New Roman', Times, serif;
     background-color: #333;
     color: white;
-    padding: 10px; /* Add padding to create space between text and border */
+    padding: 10px;
+    display: inline-block;
+    border: 3px solid #333;
+    border-radius: 10px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.aboutText p {
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .intexth2 h2 {
@@ -194,6 +212,10 @@
         width: 50%;
         height: 50%;
     }
+}
+
+.hireContent p {
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .bodyOther {
