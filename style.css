@@ -153,7 +153,6 @@
     padding: 10px; /* Add padding to create space between text and border */
 }
 
-
 .intexth2 h2 {
     color: #fd960d;
     background-color: white;
@@ -178,10 +177,23 @@
     /* border: 3px solid #fd960d; */
 }
 
-.imageContainer img {
-    width: 40%;
-    height: 40%;
-    padding: 20px;
+.imageContainer p {
+    color: white;
+}
+
+@media (min-width: 601px) {
+    .imageContainer img {
+        width: 30%;
+        height: 30%;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .imageContainer img {
+        width: 50%;
+        height: 50%;
+    }
 }
 
 .bodyOther {
