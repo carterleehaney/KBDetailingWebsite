@@ -197,6 +197,7 @@
     }
 
     .footer1 iframe {
+        width: auto;
         margin: auto;
         display: block;
     }
@@ -208,6 +209,7 @@
     }
 
     .footer2 iframe {
+        width: auto;
         margin: auto;
         display: block;
     }
