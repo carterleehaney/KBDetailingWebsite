@@ -10,15 +10,17 @@
         background-repeat: no-repeat;
         background-position: center;
         background-attachment: fixed; /* Add this line */
+        background-color: #333;
     }
 }
 
 @media only screen and (min-width: 601px) {
     body {
         background-image: url('images/backgrounddesktop.jpg');
-        background-size: stretch;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+        background-color: #333;
     }
 }
 
@@ -184,6 +186,30 @@
         top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .footer1 {
+        width: auto;
+        height: auto;
+        margin: auto;
+    }
+
+    .footer1 iframe {
+        margin: auto;
+        display: block;
+    }
+
+    .footer2 {
+        width: auto;
+        height: auto;
+        margin: auto;
+    }
+
+    .footer2 iframe {
+        margin: auto;
+        display: block;
     }
 }
 
