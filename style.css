@@ -9,8 +9,9 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        background-attachment: fixed; /* Add this line */
-        background-color: #333;
+        background-attachment: fixed; 
+        /* shoutout shecodes.com for this awesome gradient :) */
+        background: linear-gradient(177.9deg, rgb(58, 62, 88) 3.6%, rgb(119, 127, 148) 105.8%); 
     }
 }
 
@@ -20,7 +21,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        background-color: #333;
+        background: linear-gradient(177.9deg, rgb(58, 62, 88) 3.6%, rgb(119, 127, 148) 105.8%); 
     }
 }
 
@@ -176,18 +177,13 @@
         margin: auto;
         text-align: center;
         height: auto;
-        width: auto;
+        width: 70%;
         background-color: #333;
         color: white;
         padding: 10px;
         border: 3px solid #333;
         border-radius: 10px;
-        position: absolute;
-        top: 60%;
-        left: 50%;
-        transform: translate(-50%, -50%);
     }
-}
 
 @media only screen and (max-width: 600px) {
     .footer1 {
@@ -212,6 +208,25 @@
         width: auto;
         margin: auto;
         display: block;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .footer1,
+    .footer2 {
+        width: 70%;
+        height: auto;
+        margin: 0 auto; /* Center horizontally */
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+    }
+
+    .footer1 iframe,
+    .footer2 iframe {
+        width: 50%;
+        margin: auto;
+        display: inline-block;
     }
 }
 
@@ -268,6 +283,6 @@
 
 .bodyOther {
     background-image: none;
-    background-color: #333;
+    background: linear-gradient(177.9deg, rgb(58, 62, 88) 3.6%, rgb(119, 127, 148) 105.8%); 
 }
 
