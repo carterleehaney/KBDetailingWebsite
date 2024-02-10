@@ -184,6 +184,7 @@
         border: 3px solid #333;
         border-radius: 10px;
     }
+}
 
 @media only screen and (max-width: 600px) {
     .footer1 {
@@ -286,4 +287,3 @@
     background-image: none;
     background: linear-gradient(177.9deg, rgb(58, 62, 88) 3.6%, rgb(119, 127, 148) 105.8%); 
 }
-
